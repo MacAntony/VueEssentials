@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import AppHeader from './components/AppHeader.vue'
+import Greating from './components/Greating.vue'
+import ReactiveDemo from './components/ReactiveDemo.vue'
+import ComputedDemo from './components/ComputedDemo.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <AppHeader/>
   </header>
 
   <main>
-    <TheWelcome />
+    <Greating />
+    <ReactiveDemo />
+    <ComputedDemo />
   </main>
 </template>
 
@@ -44,4 +44,4 @@ header {
     flex-wrap: wrap;
   }
 }
-</style>
+</style>./components/ReactiveDemo.vue
