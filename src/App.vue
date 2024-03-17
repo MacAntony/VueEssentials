@@ -3,17 +3,33 @@ import AppHeader from './components/AppHeader.vue'
 import Greating from './components/Greating.vue'
 import ReactiveDemo from './components/ReactiveDemo.vue'
 import ComputedDemo from './components/ComputedDemo.vue';
+import StyleBindingDemo from './components/StyleBindingDemo.vue';
+import ConditionalRenderingDemo from './components/ConditionalRenderingDemo.vue';
+import ListRenderingDemo from './components/ListRenderingDemo.vue';
+import EventHandlingDemo from './components/EventHandlingDemo.vue';
+import FormInputBindingDemo from './components/FormInputBindingDemo.vue';
+import LifecycleHooksDemo from './components/LifecycleHooksDemo.vue';
+import WatchersDemo from './components/WatchersDemo.vue';
+import TemplateRefsDemo from './components/TemplateRefsDemo.vue';
+import ComponentsBasicsDemo from './components/ComponentsBasicsDemo.vue';
+
 </script>
 
 <template>
-  <header>
-    <AppHeader/>
-  </header>
-
   <main>
+    <AppHeader/>
     <Greating />
     <ReactiveDemo />
     <ComputedDemo />
+    <StyleBindingDemo />
+    <ConditionalRenderingDemo />
+    <ListRenderingDemo />
+    <EventHandlingDemo />
+    <FormInputBindingDemo />
+    <LifecycleHooksDemo />
+    <WatchersDemo />
+    <TemplateRefsDemo />
+    <ComponentsBasicsDemo/>
   </main>
 </template>
 
@@ -44,4 +60,4 @@ header {
     flex-wrap: wrap;
   }
 }
-</style>./components/ReactiveDemo.vue
+</style>
